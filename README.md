@@ -12,3 +12,11 @@ comando:
     flask run
 
 paso 3:
+Modificar en los datos para consultar o crear en base de datos
+    app.config['SQLALCHEMY_DATABASE_URI'] ='mysql+mysqlconnector://root_web_python:password@localhost/web-python'
+        root_web_python = es el nombre de usuario de base de datos.
+        password = clave de base de datos.
+        localhost = host donde se encuentra la base de datos.
+        web-python = nombre base de datos.
+
+
