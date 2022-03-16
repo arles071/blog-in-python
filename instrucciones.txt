@@ -1,0 +1,34 @@
+crear entorno virtual:
+
+python -m venv entorno_virtual
+
+activar el entorno virtual:
+
+entorno_virtual\Scripts\activate
+
+
+
+instalar modulo flask
+pip install flask
+
+
+sistema de plantillas de flask:
+
+/templates
+/templates/index.html
+
+
+Iniciar servisor:
+    flask
+    set FLASK_APP=app.py
+        > set FLASK_ENV=development
+        > flask run
+
+
+instalar modulo wheel:
+
+pip install wheel
+pip install python-slugify
+pip install mysql-connector-python
+pip install flask-login
+pip install flask-sqlalchemy
